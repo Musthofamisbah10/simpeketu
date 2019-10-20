@@ -1,0 +1,78 @@
+/*#7376df*/
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #7376df;
+	font-family: sans-serif;
+}
+.container{
+	width: 320px;
+	height: 420px;
+	background: #ecf0f1;
+	color: #000;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	border-radius: 15px;
+}
+.mimin{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	position: relative;
+	top: -20%;
+	left: 33%;
+}
+h1{
+	margin: 0;
+	margin-top: -50px;
+	padding: 0 0 50px;
+	font-size: 25px;
+	text-align: center;
+}
+.input{
+	margin: 0;
+	margin-left: 40px;
+}
+.input p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+.input input{
+	width: 85%;
+	margin-bottom: 10px;
+}
+.input input[type="text"], input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #000;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #000;
+}
+.input button{
+	margin-top: 30px;
+	margin-bottom: 10px;
+	width: 85%;
+	height: 40px;
+	background-color: #7376df;
+	border: none;
+	outline: none;
+	border-radius: 20px;
+	color: #000;
+	font-size: 17px;
+}
+.input button:hover{
+	cursor: pointer;
+	background: #bdc3c7;
+	color: #000;
+}
+a{
+	text-decoration: none;
+	font-size: 11px;
+	line-height: none;
+	color: darkgray;
+}
